@@ -15,6 +15,6 @@ export const LandmarkList = () => {
     
     // Add to the existing HTML in the content element
     }
-    landmarkElement.innerHTML += `${landmarkHTMLRepresentations};
+    landmarkElement.innerHTML += `${landmarkHTMLRepresentations}
     `
 }     

@@ -14,6 +14,6 @@ export const LeaderList = () => {
     
     // Add to the existing HTML in the content element
     }
-    leaderElement.innerHTML += `${leaderHTMLRepresentations};
+    leaderElement.innerHTML += `${leaderHTMLRepresentations}
     `
 }

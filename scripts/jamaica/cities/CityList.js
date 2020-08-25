@@ -14,6 +14,6 @@ export const CityList = () => {
     
     // Add to the existing HTML in the content element
     }
-    cityElement.innerHTML += `${cityHTMLRepresentations};
+    cityElement.innerHTML += `${cityHTMLRepresentations}
     `
 }
