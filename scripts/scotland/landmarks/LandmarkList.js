@@ -5,7 +5,7 @@ export const LandmarkList = () => {
     const landmarks = useLandmark();
 
     const landmarkElement = document.querySelector(".landmarks");
-    let landmarkHTMLRepresentation = "";
+    let landmarkHTMLRepresentation = "<h2>Landmarks</h2>";
     for (const landmark of landmarks) {
         landmarkHTMLRepresentation += Landmark(landmark);
     };
