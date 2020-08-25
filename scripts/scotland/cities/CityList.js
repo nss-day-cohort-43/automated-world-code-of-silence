@@ -1,9 +1,3 @@
-/**
- *  FishList which renders individual fish objects as HTML
- */
-
-// TODO: Import `useFish` from the data provider module
-
 import { useCity } from './CityDataProvider.js';
 import { City } from './City.js';
 
