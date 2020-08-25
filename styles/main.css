@@ -1,0 +1,21 @@
+@import "header.css";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.country-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.country-title {
+    align-self: center;
+}
+
+.country-details {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
