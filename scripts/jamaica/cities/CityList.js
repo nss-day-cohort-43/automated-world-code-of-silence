@@ -8,7 +8,7 @@ export const CityList = () => {
     // Reference to the DOm, reference to the array
     const cityElement = document.querySelector(".cities");
    
-    let cityHTMLRepresentations = "";
+    let cityHTMLRepresentations = "<h2>Island Destinations</h2>";
     for (const oneCity of cities) {
         cityHTMLRepresentations += city(oneCity);   
     
