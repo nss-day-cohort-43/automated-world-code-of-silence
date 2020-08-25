@@ -5,7 +5,7 @@ export const cityList = () => {
     const cityElement = document.querySelector('.cities')
     const cities = makeCities()
 
-    let cityHTMLRepresentation = "";
+    let cityHTMLRepresentation = "<h2>Cities</h2>";
 
     cities.forEach(
         (cityObj) => {
