@@ -5,7 +5,7 @@ export const LeaderList = () => {
     const leaders = useLeader();
 
     const leaderElement = document.querySelector(".citizens");
-    let leaderHTMLRepresentation = "";
+    let leaderHTMLRepresentation = "<h2>Leaders</h2>";
     for (const leader of leaders) {
         leaderHTMLRepresentation += Leader(leader);
     };
