@@ -18,4 +18,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+
+}
+
+.country-image {
+    width: 50em;  
+    height: auto; 
+    align-self: center;
+    border-style: solid;
+    background-color:lightgoldenrodyellow;
+    padding: 0.5em;
+    border-radius: 30px;
+    margin: 3em;
+    border: 100%;
 }
