@@ -8,7 +8,7 @@ export const LeaderList = () => {
     // Reference to the DOm, reference to the array
     const leaderElement = document.querySelector(".citizens");
     
-    let leaderHTMLRepresentations = "";
+    let leaderHTMLRepresentations = "<h2>Leaders</h2>";
     for (const oneLeader of leaders) {
         leaderHTMLRepresentations += leader(oneLeader);   
     
